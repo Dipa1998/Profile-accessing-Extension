@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dipanwita's Profile</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <Body background="download.jpg">   
+  <style>
+
+    html, body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 50px;
+      margin: 0;
+      min-height: 180px;
+      padding: 0;
+      width: 384px;
+      background-color: black;
+      background-image: url('download.jpg');
+    }
+
+    h1 {
+      font-family: 'Menlo', monospace;
+      font-size: 22px;
+      font-weight: 600;
+      margin: 0;
+      
+    }
+
+    a:link, a:visited {
+      color:pink;
+      outline: 0;
+      text-decoration: none;
+    }
+
+    img {
+      width: 50px;
+    }
+
+    .modal-header {
+      align-items: center;
+      border-bottom: 0.5px solid wheat;
+    }
+
+    .modal-content {
+      padding: 0 25px;
+    }
+
+    .modal-icons {
+      border-top: 0.5px solid #dadada;
+      height: 50px;
+      width: 100%;
+    }
+
+    .logo {
+      padding: 16px;
+    }
+
+    .logo-icon {
+      vertical-align: text-bottom;
+      margin-right: 12px; 
+    }
+
+    .version {
+      color: #000041;
+      font-size: 17px;
+    }
+
+    .sub_class {
+      color:rgb(17, 16, 16);
+      font-size: 25px;
+      font-style: italic;
+    }
+    
+
+    .spice {
+      color:pink;
+      font-style: italic;
+     
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 12px;
+    }
+
+    .flex {
+      opacity: 1;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .flex:hover {
+      opacity: 0.5;
+    }
+
+    .flex .fa {
+      font-size: 40px;
+      color:pink;
+    }
+
+    .f {
+      align-items: center;
+      width: 200%;
+      margin-left: 50px;
+    }
+    .bar{
+      padding: 10px;
+      font-size: 15px;
+    
+    }
+    .btn{
+      padding: 10px;
+      background-color:pink;
+      color: black;
+      cursor: pointer;
+     
+    }
+    input[type=search] {
+  box-sizing: border-box;
+  background-color: pink;
+  color: white;
+} 
+
+
+  </style>
+</head>
+<body>
+  <div class="modal-header">
+    <h1 class="logo">
+      <img src="icon1.png" alt="Dipanwita's Launcher" class="logo-icon"><span class="spice">Dipanwita's Profile</span> 
+    </h1>
+  </div>
+
+  <div id="pattern1" class="pattern1"> 
+    <form action="https://photos.google.com/albums" method="get" class="f" target="_blank"> 
+      <input type="search" name="query" class="bar" placeholder="Search My Photos and videos..." /> 
+      <input type="submit" class="btn search-submit" value="Search"> 
+    </form>
+</div> 
+
+<div id="pattern3" class="pattern3"> 
+    <form action="https://mail.google.com/mail/u/0/#inbox" method="get" class="f" target="_blank"> 
+        <input type="search" name="query" class="bar" placeholder="Search My Email..." /> 
+        <input type="submit" class="btn search-submit" value="Search"> 
+      </form>
+  </div> 
+  <div id="pattern4" class="pattern4"> 
+    <form action="https://contacts.google.com/" method="get" class="f" target="_blank"> 
+        <input type="search" name="query" class="bar" placeholder="Search My Contacts..." /> 
+        <input type="submit" class="btn search-submit" value="Search"> 
+      </form>
+  </div> 
+  <div id="pattern5" class="pattern5"> 
+    <form action="https://docs.google.com/document/u/0/" method="get" class="f" target="_blank"> 
+        <input type="search" name="query" class="bar" placeholder="Search My Documents..." /> 
+        <input type="submit" class="btn search-submit" value="Search"> 
+      </form>
+  </div> 
+  <div id="feed"></div>
+  <div class="modal-content">
+    <p class="sub_class">Easily access Useful things !</p>
+  </div>
+  <div class="modal-icons">
+    <div class="flex-container">
+      
+      <div class="flex">
+          <a href="https://youtube.com/channel/UCxDOa13vS8XKatkypcSMt6w" target="_blank">
+          <i class="fa fa-youtube"></i>
+        </a>
+        </div>
+        
+          
+        <div class="flex">
+            <a href="https://www.facebook.com/profile.php?id=100007438545633" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+          </div>
+          <div class="flex">
+              <a href="https://www.instagram.com/dipa.titu/" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+            </div>
+          <div class="flex">
+              <a href="https://github.com/Dipa1998" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+            </div>
+    </div>
+  </div>
+  
+  
+  <script src="popup.js"></script>
+</body>
+</html>
